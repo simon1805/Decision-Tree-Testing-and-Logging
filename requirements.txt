@@ -1,0 +1,9 @@
+pandas
+numpy
+matplot
+seaborn
+scikit-learn
+time
+json
+functools
+os
