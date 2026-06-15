@@ -3,11 +3,7 @@
 ---
 
 ## Starten der Umgebung
-Das Notebook kann per mybinder (https://mybinder.org/) geöffnet werden.
-Folgende Daten müssen in die Felder eingetragen werden:
-- Github Repo: https://github.com/simon1805/Decision-Tree-Testing-and-Logging.git
-- Git ref: main
-- File to open: index.ipynb
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simon1805/Decision-Tree-Testing-and-Logging/main?filepath=index.ipynb)
 
 ---
 
