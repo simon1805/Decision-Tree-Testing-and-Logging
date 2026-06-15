@@ -3,6 +3,3 @@ numpy
 matplot
 seaborn
 scikit-learn
-json
-functools
-os
