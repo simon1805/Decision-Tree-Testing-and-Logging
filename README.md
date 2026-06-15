@@ -16,6 +16,20 @@ Dieses Notebook implementiert einen einfachen Logging‑ und Timing‑Ansatz fü
 
 ---
 
+## Ausführung der Testfälle
+
+Die implementierten Unit-Tests wurden erfolgreich ausgeführt. Dabei wurden sowohl die Vorhersagefunktion predict() als auch die Trainingsfunktion fit() des Modells überprüft.
+
+### Testfall 1: Überprüfung der Vorhersagefunktion predict()
+
+Für die Vorhersagefunktion wurden die Accuracy sowie die Confusion Matrix als Qualitätsindikatoren verwendet. Die Testdaten wurden aus einer separaten Testdatenmenge geladen und anschließend durch das trainierte Modell klassifiziert.
+
+### Testfall 2: Überprüfung der Trainingsfunktion fit()
+
+Zur Überprüfung der Trainingsfunktion wurde die Laufzeit des Trainings gemessen und mit einer zuvor bestimmten Referenzlaufzeit verglichen. Der Test gilt als bestanden, wenn die gemessene Laufzeit den definierten Grenzwert von 120 % der Referenzlaufzeit nicht überschreitet.
+
+---
+
 ## Projektstruktur im Notebook
 - **Dekoratoren**: `my_logger`, `my_timer` (schreiben JSON‑Logs in `logs/`)  
 - **Wrapperklassen**: `DecisionTreeWrapper`, `RandomForestWrapper` (verwenden die Dekoratoren)  
